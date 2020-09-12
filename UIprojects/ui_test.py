@@ -7,7 +7,7 @@ from time import sleep
 class TestCase:
 
     def setup_class(self):
-        print(u'打开网页')
+        print(u'打开浏览器')
         self.browser = webdriver.Chrome()
         self.browser.get('https://www.baidu.com/')
         self.browser.implicitly_wait(5)
