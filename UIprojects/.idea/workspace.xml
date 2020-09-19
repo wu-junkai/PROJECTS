@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="731eebf2-f0c0-44cf-890e-5c7482ac47d4" name="Default Changelist" comment="" />
+    <list default="true" id="731eebf2-f0c0-44cf-890e-5c7482ac47d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1gauo0oS867AqvSLkYTuZEjQI9G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,8 +29,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../venv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
@@ -69,43 +77,65 @@
       <workItem from="1599744644792" duration="643000" />
       <workItem from="1599836234675" duration="3506000" />
       <workItem from="1599874068277" duration="11006000" />
+      <workItem from="1599909487993" duration="2443000" />
+      <workItem from="1600178781867" duration="3136000" />
     </task>
+    <task id="LOCAL-00001" summary="修改">
+      <created>1599909657140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599909657140</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1599909656151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599909656151" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1599905381572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599905381572" />
-    <state width="1306" height="236" key="GridCell.Tab.0.bottom" timestamp="1599903483429">
+    <state width="1306" height="236" key="GridCell.Tab.0.bottom" timestamp="1600183839021">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599903483429" />
-    <state width="1306" height="236" key="GridCell.Tab.0.center" timestamp="1599903483429">
+    <state width="1306" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600183839021" />
+    <state width="1306" height="236" key="GridCell.Tab.0.center" timestamp="1600183839021">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599903483429" />
-    <state width="1306" height="236" key="GridCell.Tab.0.left" timestamp="1599903483429">
+    <state width="1306" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600183839021" />
+    <state width="1306" height="236" key="GridCell.Tab.0.left" timestamp="1600183839020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599903483429" />
-    <state width="1306" height="236" key="GridCell.Tab.0.right" timestamp="1599903483429">
+    <state width="1306" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600183839020" />
+    <state width="1306" height="236" key="GridCell.Tab.0.right" timestamp="1600183839021">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599903483429" />
+    <state width="1306" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600183839021" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1599905698995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599905698995" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599874071220">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1599909679555">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599874071220" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599909679555" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1600178782954">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600178782954" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/UIprojects$ui_test.coverage" NAME="ui_test Coverage Results" MODIFIED="1599903426420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UIprojects$ui_test.coverage" NAME="ui_test Coverage Results" MODIFIED="1600183743900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
