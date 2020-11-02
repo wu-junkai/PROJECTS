@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="731eebf2-f0c0-44cf-890e-5c7482ac47d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uicases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uicases/baidu_search/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uicases/baidu_search/test_search_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uicases/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uicases/config/case_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uictrl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uictrl/dao/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uictrl/dao/db_const.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uictrl/dao/db_op.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uictrl/dao/db_public.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uictrl/public_method/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uictrl/public_method/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uictrl/urls/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uictrl/urls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UIprojects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UIprojects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uicases/ui_test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +49,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/uicases" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="ui_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PROJECT\PROJECTS\UIprojects\uicases\baidu_search" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PROJECT\PROJECTS\UIprojects\uicases" />
+      <recent name="E:\PROJECT\PROJECTS\UIprojects\uictrl\urls" />
+      <recent name="E:\PROJECT\PROJECTS\UIprojects\uictrl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in test_search_python.py">
+    <configuration name="db_op" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UIprojects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -43,12 +71,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uictrl/dao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uictrl/dao/db_op.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -57,9 +85,96 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="db_public" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UIprojects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uictrl/dao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uictrl/dao/db_public.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UIprojects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uictrl/public_method" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uictrl/public_method/exceptions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in E:/PROJECT/PROJECTS/UIprojects/uicases/baidu_search/ui_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="UIprojects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uicases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/uicases/baidu_search/ui_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_search_python.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="UIprojects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/uicases/baidu_search/test_search_python.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.db_op" />
+      <item itemvalue="Python.db_public" />
+      <item itemvalue="Python.exceptions" />
+      <item itemvalue="Python tests.pytest in test_search_python.py" />
+      <item itemvalue="Python tests.pytest in E:/PROJECT/PROJECTS/UIprojects/uicases/baidu_search/ui_test.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ui_test" />
+        <item itemvalue="Python tests.pytest in test_search_python.py" />
+        <item itemvalue="Python.exceptions" />
+        <item itemvalue="Python tests.pytest in E:/PROJECT/PROJECTS/UIprojects/uicases/baidu_search/ui_test.py" />
+        <item itemvalue="Python.db_op" />
+        <item itemvalue="Python.db_public" />
       </list>
     </recent_temporary>
   </component>
@@ -79,7 +194,16 @@
       <workItem from="1599874068277" duration="11006000" />
       <workItem from="1599909487993" duration="2443000" />
       <workItem from="1600178781867" duration="3136000" />
-      <workItem from="1600509530201" duration="1289000" />
+      <workItem from="1600509530201" duration="1583000" />
+      <workItem from="1600511185927" duration="923000" />
+      <workItem from="1600512412416" duration="13000" />
+      <workItem from="1600512583003" duration="452000" />
+      <workItem from="1600513208186" duration="7436000" />
+      <workItem from="1602251271180" duration="2271000" />
+      <workItem from="1603714543641" duration="10600000" />
+      <workItem from="1603976645228" duration="12175000" />
+      <workItem from="1604157524527" duration="2887000" />
+      <workItem from="1604320878750" duration="2008000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1599909657140</created>
@@ -88,55 +212,122 @@
       <option name="project" value="LOCAL" />
       <updated>1599909657140</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add requirements.txt">
+      <created>1600520686469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600520686469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="add requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add requirements.txt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1599909656151">
+    <state x="275" y="21" key="#Notifications" timestamp="1604063954747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599909656151" />
-    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1599905381572">
+    <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1604063954747" />
+    <state x="275" y="21" key="#SQL_Dialects" timestamp="1603981101424">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599905381572" />
-    <state width="1306" height="236" key="GridCell.Tab.0.bottom" timestamp="1600183839021">
+    <state x="275" y="21" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1603981101424" />
+    <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604064335557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600183839021" />
-    <state width="1306" height="236" key="GridCell.Tab.0.center" timestamp="1600183839021">
+    <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604064335556" />
+    <state x="541" y="68" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1603715988867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600183839021" />
-    <state width="1306" height="236" key="GridCell.Tab.0.left" timestamp="1600183839020">
+    <state x="541" y="68" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1603715988867" />
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604159205307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600183839020" />
-    <state width="1306" height="236" key="GridCell.Tab.0.right" timestamp="1600183839021">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604159205307" />
+    <state x="524" y="192" key="#com.intellij.tools.ToolEditorDialog" timestamp="1603716322616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600183839021" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1599905698995">
+    <state x="524" y="192" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.728@0.0.1366.728" timestamp="1603716322616" />
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1600520685071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599905698995" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1599909679555">
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600520685071" />
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1603716321616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599909679555" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1600509533061">
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603716321616" />
+    <state width="1306" height="283" key="GridCell.Tab.0.bottom" timestamp="1604322911421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600509533061" />
+    <state width="1306" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604322911421" />
+    <state width="1306" height="283" key="GridCell.Tab.0.center" timestamp="1604322911421">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="283" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604322911421" />
+    <state width="1306" height="283" key="GridCell.Tab.0.left" timestamp="1604322911421">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="283" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604322911421" />
+    <state width="1306" height="283" key="GridCell.Tab.0.right" timestamp="1604322911421">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="283" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604322911421" />
+    <state width="1306" height="210" key="GridCell.Tab.1.bottom" timestamp="1604071824802">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="210" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604071824802" />
+    <state width="1306" height="210" key="GridCell.Tab.1.center" timestamp="1604071824802">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="210" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604071824802" />
+    <state width="1306" height="210" key="GridCell.Tab.1.left" timestamp="1604071824802">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="210" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604071824802" />
+    <state width="1306" height="210" key="GridCell.Tab.1.right" timestamp="1604071824802">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="210" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604071824802" />
+    <state x="262" y="0" key="SettingsEditor" timestamp="1604065282252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="262" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604065282252" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1600520696529">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600520696529" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1604320884696">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1604320884696" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UIprojects$ui_test__1_.coverage" NAME="ui_test (1) Coverage Results" MODIFIED="1604064273968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uicases" />
     <SUITE FILE_PATH="coverage/UIprojects$ui_test.coverage" NAME="ui_test Coverage Results" MODIFIED="1600183743900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UIprojects$pytest_in_ui_test_py.coverage" NAME="pytest in ui_test.py Coverage Results" MODIFIED="1604064340146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uicases" />
+    <SUITE FILE_PATH="coverage/UIprojects$db_op.coverage" NAME="db_op Coverage Results" MODIFIED="1604063848484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uictrl/dao" />
+    <SUITE FILE_PATH="coverage/UIprojects$pytest_in_test_search_python_py.coverage" NAME="pytest in test_search_python.py Coverage Results" MODIFIED="1604322362573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UIprojects$exceptions.coverage" NAME="exceptions Coverage Results" MODIFIED="1604160226788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uictrl/public_method" />
+    <SUITE FILE_PATH="coverage/UIprojects$db_public.coverage" NAME="db_public Coverage Results" MODIFIED="1604063525714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uictrl/dao" />
   </component>
 </project>
